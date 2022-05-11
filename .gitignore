@@ -1,0 +1,39 @@
+# Editor configs
+.idea
+.vscode
+.nova
+
+# System files
+.DS_Store
+
+# Packages catalogues
+node_modules
+vendor
+
+# WP codebase: folders
+wp-admin
+wp-includes
+wp-content/cache
+wp-content/languages
+wp-content/plugins
+wp-content/uploads
+wp-content/upgrade
+wp-content/uploads-webpc
+wp-content/*.php
+wp-content/themes/*.php
+wp-content/themes/twenty*
+acf-json
+
+# WP codebase: files
+/wp-*.php
+/license.txt
+/index.php
+/xmlrpc.php
+/readme.html
+.htaccess
+
+# Dists
+dist
+
+# Others
+.env
