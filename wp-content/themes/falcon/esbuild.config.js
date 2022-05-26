@@ -35,7 +35,7 @@ const entryPoints = [
 ];
 const entries = glob
     .sync(`${project.paths.base}/partials/blocks/**/*.json`)
-    .reduce((blocks, filePath) => {
+    .reduce((_, filePath) => {
         const pureJSON = JSON.stringify(require(filePath));
         const data = JSON.parse(pureJSON);
         const blockSlug = path.basename(filePath).split(".")[0];
